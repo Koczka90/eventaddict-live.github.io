@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="hu">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adatkezelési tájékoztató – EventAddict</title>
+
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+         margin: 0; padding: 2rem; line-height: 1.6; max-width: 900px; }
+  header { margin-bottom: 1.5rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 .5rem; }
+  h2 { margin-top: 1.4rem; font-size: 1.2rem; }
+  .meta { color: #666; font-size: .95rem; }
+  a { text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .notice { background: rgba(255, 208, 0, .15); padding: .75rem 1rem; border-radius: .5rem; }
+  footer { margin-top: 2rem; font-size: .9rem; color: #666; }
+</style>
+
+<body>
+<header>
+  <h1>Adatkezelési tájékoztató</h1>
+  <div class="meta">Utolsó frissítés: 2025.10.15</div>
+</header>
+
+<p class="notice"><strong>Megjegyzés:</strong> Ez a dokumentum <em>nem</em> rögzít helyadat-kezelést. 
+Az alkalmazás nem kér hozzáférést az eszköz helyéhez, és nem gyűjt helyadata(ka)t.</p>
+
+<h2>1. Adatkezelő</h2>
+
+<h2>2. Kezelt adatok köre</h2>
+<ul>
+  <li><strong>Fiókadatok:</strong> név/becenév, e‑mail, felhasználói típus (zenekar/szervező)</li>
+  <li><strong>Profil:</strong> leírás, műfajok, linkek, profilkép (opcionális)</li>
+
+  <li><strong>Eszköz/diagnosztika:</strong> naplók és összeomlási adatok (Firebase Crashlytics)</li>
+  <li><strong>Előfizetés meta (ha van):</strong> Google Play Billing tranzakciós metaadatok (kártyaadatot nem kezelünk)</li>
+</ul>
+
+<h2>3. Célok és jogalapok (GDPR)</h2>
+<ul>
+  <li>Szolgáltatás nyújtása, fiókkezelés – GDPR 6(1)(b)</li>
+  <li>Biztonság, visszaélés‑megelőzés, moderáció – GDPR 6(1)(f)</li>
+  <li>Kommunikáció/értesítések – 6(1)(b); marketing csak hozzájárulással – 6(1)(a)</li>
+  <li>Analitika és fejlesztés – 6(1)(f)</li>
+  <li>Jogszabályi kötelezettségek – 6(1)(c)</li>
+</ul>
+
+<h2>4. Megőrzés</h2>
+<ul>
+  <li>Fiók és profil: a fiók fennállásáig, törléskor törlés/anonimizálás</li>
+  <li>Üzenetek: alapértelmezetten 24 hónap</li>
+  <li>Naplók/diagnosztika: 30–180 nap</li>
+  <li>Előfizetés meta: jogszabály szerinti idő (ha releváns)</li>
+</ul>
+
+<h2>5. Értesítések</h2>
+
+<h2>6. Adatátadás / adatfeldolgozók</h2>
+<ul>
+  <li>Google Firebase: Auth, Firestore, Cloud Messaging, Crashlytics</li>
+  <li>Google Maps SDK: térképmegjelenítés (nem kér hozzáférést az eszköz helyéhez)</li>
+  
+  <li>Google Play Billing: in‑app vásárlás/előfizetés meta (ha van)</li>
+</ul>
+
+<h2>7. Nemzetközi adattovábbítás</h2>
+<p>A fenti szolgáltatók szerverei az EGT-n kívül is lehetnek. Standard szerződéses feltételek (SCC) és megfelelő garanciák alkalmazása.</p>
+
+<h2>8. Érintetti jogok</h2>
+<p>Hozzáférés, helyesbítés, törlés, korlátozás, tiltakozás, hordozhatóság. Kérelmek: 
+<a href="mailto:sbpkft@gmail.com">sbpkft@gmail.com</a>. Válasz 30 napon belül.
+Felügyeleti hatóság: NAIH (naih.hu).</p>
+
+<h2>9. Fiók és adatok törlése</h2>
+<p>A fiók törlése az alkalmazásban: Beállítások → Fiók törlése. Ha nem férsz hozzá a fiókodhoz, 
+indíts törlési kérelmet itt: <a href="account-deletion.html">Fiók törlése (útmutató)</a>.</p>
+
+<h2>10. Biztonság és felelősség</h2>
+<p>Hozzáférés‑kontroll, titkosítás tranzitban, korlátozott hozzáférés. A platform közvetítő; a felek megállapodásaiért 
+nem vállalunk felelősséget.</p>
+
+<footer>
+  © 2025 EventAddict — Kapcsolat: <a href="mailto:sbpkft@gmail.com">sbpkft@gmail.com</a>
+</footer>
+</body>
+</html>
